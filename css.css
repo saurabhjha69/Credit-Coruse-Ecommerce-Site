@@ -118,8 +118,9 @@ html,body {
     /* border: 1px solid black; */
     border-radius: 10px;
     margin: 10px;
-    /* overflow: hidden; */
+    overflow: hidden;
     box-shadow: 2px 2px 5px black;
+    transition: width 0.3s ease-in;
 
 }
 
@@ -156,6 +157,9 @@ html,body {
     opacity: 1; 
 }
 
+.product img:hover{
+    width: 105%;
+}
 .footer{
     min-height: 30vh;
     width: 89%;
@@ -175,6 +179,10 @@ html,body {
     flex:2;
     height: 100%;
     /* background-color: aquamarine; */
+}
+
+.logo-des p{
+    font-size: 13px;
 }
 .prod{
     flex:0.7;
