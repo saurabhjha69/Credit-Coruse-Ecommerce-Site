@@ -29,7 +29,7 @@ html,body {
 .logo {
     font-size: 20px;
     font-weight: 600;
-    color: #000000;
+    color: #CD0D09;
     cursor: pointer;
 }
 
@@ -216,4 +216,57 @@ html,body {
 .downfoot{
    color: #00000093;
     margin-top: 30px;
+}
+
+/* about us */
+
+.quote{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+.para{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 40px;
+}
+
+.para p{
+    margin-bottom: 30px;
+}
+hr{
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.thought{
+    height: 100vh;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.thought img{
+    height: 55%;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.thought h1{
+    font-weight: 600;
+    width: 50%;
+    margin: auto;
+    line-height: 33px;
+}
+.thought h1 span{
+    color: #CD0D09;
+}
+
+.copyright{
+    text-align: center;
+    color: #000000b6;
+    margin-bottom: 20px;
 }

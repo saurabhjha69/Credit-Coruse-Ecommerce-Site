@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: "Poppins", sans-serif;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color:antiquewhite; */
+}
+.nav{
+    /* background-color: #ff3c78; */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo ,.nav-icons{
+    padding: 20px 80px;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #CD0D09;
+    cursor: pointer;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-icons a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+.nav-icons a:hover{
+    color: #CD0D09;
+}
+.contact{
+    width: 70%;
+    margin: auto;
+    /* background-color: antiquewhite; */
+    padding: 100px;
+}
+.title{
+    margin: auto;
+    width: 50%;
+    /* background-color: aqua; */
+    text-align: center;
+    
+}
+.title h1{
+    font-weight: 400;
+}
+.title .underline {
+    height: 3px;
+    background-color: #CD0D09;
+    width: 2%;
+    margin: auto;
+    transition: width 0.3s ease-in;
+}
+
+.title h1:hover + .underline{
+    width: 60%;
+}
+.form-content{
+    width: 60%;
+    /* background-color: aquamarine; */
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.form-content form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.input-dets{
+    display: block;
+    border-width: 0 0 2px 0;
+    
+    
+
+}
+input::placeholder{
+    font-size: 16px;
+}
+.subj{
+    border-width: 0 0 2px 0;
+    width: 424px;
+    
+}
+.input-dets:focus,textarea:focus{
+    outline: none;
+}
+
+textarea{
+    width: 424px;
+    padding: 10px;
+}
+
+
+.name-email{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+
+.submit input{
+    padding: 7px 20px;
+    color: rgb(0, 0, 0);
+    background-color: #CD0D09;
+    border: 0;
+    font-weight: 700;
+    
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
